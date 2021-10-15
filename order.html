@@ -1,65 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Cart</title>
-  </head>
-  <body>
-    <section class="main">
-      <div class="logo">
-        <p><span class="tag">Potato</span>Corner</p>
-      </div>
-      <nav class="navbar">
-        <ul class="tag">
-          <li class="nav">
-            <a class="signin" href="./login.html">Sign in</a>
-            <img src="images/icon.svg" alt="" />
-          </li>
-        </ul>
-      </nav>
-      <div class="top-b">
-        <h3>-Order Your Items-</h3>
-      </div>
-        
-    </section>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<title>Shipping</title>
+	</head>
+	<body>
+		<section class="main">
+			<div class="logo">
+				<p><span class="tag">Potato</span>Corner</p>
+			</div>
+			<nav class="navbar">
+				<ul class="tag">
+					<li class="nav">
+						<a class="signin" href="./login.html">Sign in</a>
+						<img src="images/icon.svg" alt="" />
+					</li>
+				</ul>
+			</nav>
+			<div class="top-b">
+				<h3>-Order Your Items-</h3>
+			</div>
+		</section>
 
-    <section>
-      <div class="body">
-        <h3>Shipment Details</h3>
-        <p>Please check your items and confirm it</p>
-      
-      <div class="Yorder">
-        <table>
-          
-          <tr>
-            <td>Lay's salt & Vineger</td>
-            <td>1</td>
-            <td>$25</td>
-          </tr>
-          <tr>
-            <td>RED ROCK DELI sweet chilli & sour cream</td>
-            <td>2</td>
-            <td>$50</td>
-          </tr>
-          <tr>
-            <hr>
-          </tr>
-          <tr class="total">
-            <td>Total Price</td>
-            <td>3</td>
-            <td>$75</td>
-          </tr>
-          
-        </table><br>
-      <div>
-      </div>
-       
-         
-    </section>
+		<section>
+			<div class="body">
+				<h3>Shipment Details</h3>
+				<p class="first">Please check your items and confirm it</p>
+				<div class="sel">
+				<div class="sel1">
+					<p>Lay's salt & Vineger</p>
+					<p class="space">1</p>
+					<p>$25</p>
+				</div>
+				<div class="sel2">
+					<p>RED ROCK DELI sweet chilli & sour cream</p>
+					<p class="space1">2</p>
+					<p>$50</p>
+				</div>
+				<div class="total">
+					<p>Total Price</p>
+					<p class="space2">3</p>
+					<p>$75</p>
+				</div>
+				</div>
+				<div class="form">
+                <label for="name">Full name</label> <br>
+                <input type="text" id="name" name="name" required placeholder="Enter Recipient's name"> <br>
 
-    
-  </body>
+                <label for="number">Phone Number</label> <br> 
+                <input type="text" id="number" name="number" required placeholder="Enter Phone Number"> <br>
+
+                <label for="address">Street address or P.O. Box</label> <br>
+                <input type="text" id="address" name="address" required placeholder="Enter Street address or P.O. Box"> <br>
+
+                <label for="zip">PIN code</label> <br>
+                <input type="text" id="zip" name="zip" required placeholder="Enter PIN code"> <br>
+
+                <label for="house">Apt, suite, unit, building, floor, etc.</label> <br>
+                <input type="text" id="house" name="house" required placeholder="Enter Apt, suite, unit, building, floor, etc."> <br>
+
+                <label for="city">City</label> <br>
+                <input type="text" id="city" name="city" required placeholder="Enter City"> <br>
+
+                <label for="state">State</label> <br>
+                <input type="text" id="State" name="state" required placeholder="Enter State">
+              </div>
+
+              <div class="submit">
+                <button type="submit">SUBMIT</button>
+              </div>
+			
+			</div>
+		</section>
+	</body>
 </html>
